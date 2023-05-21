@@ -51,6 +51,8 @@
 <code>sudo nano /etc/zabbix/zabbix_agentd.conf</code>
 
 <code>Sever=example.com</code>
+### Перезапускаем агента
+<code>sudo systemctl restart zabbix-agent</code>
 ### В вебинтерфейсе переходим по панели **Configuration->Hosts** и нажимаем в верхнем правом углу **Create host**
 ### В открывшемся окне даем название хота и создаем группу хоста
 ### Выбираем items
