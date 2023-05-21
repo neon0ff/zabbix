@@ -58,3 +58,7 @@
 ### Выбираем items
 ### Добовляем интерфейс Agent
 ### Прописываем IP, DNS если требуется и прочее
+
+## Мануалы
+* [Zabbix](https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.04&components=server_frontend_agent&db=pgsql&ws=nginx)
+* [PostgreSQL](https://www.postgresql.org/download/linux/ubuntu/)
