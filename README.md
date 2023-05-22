@@ -8,7 +8,7 @@
 <code>sudo apt-get update</code>
 ### Установим последнюю версию PostgreSQL.
 ### Если нам нужна конкретная версия, используем 'postgresql-12' или аналогичный вместо 'postgresql':
-<code>sudo apt-get -y install postgresq</code>
+<code>sudo apt-get -y install postgresql</code>
 ### Проверим статус после установки
 <code>systemctl status postgresql</code>
 ### Установим Netplan tools и проверим открытые порты
