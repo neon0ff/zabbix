@@ -10,7 +10,7 @@
 ### Если нам нужна конкретная версия, используем 'postgresql-12' или аналогичный вместо 'postgresql':
 <code>sudo apt-get -y install postgresql</code>
 ### Проверим статус после установки
-<code>systemctl status postgresql</code>
+<code>sudo systemctl status postgresql</code>
 ### Установим Netplan tools и проверим открытые порты
 <code>sudo apt install net-tools</code>
 ### Должны увидеть открытый порт 5432 для PostgreSQL
