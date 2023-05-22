@@ -13,6 +13,8 @@
 <code>sudo systemctl status postgresql</code>
 ### Установим Netplan tools и проверим открытые порты
 <code>sudo apt install net-tools</code>
+
+<code>sudo netstat -tulpn</code>
 ### Должны увидеть открытый порт 5432 для PostgreSQL
 ## Установка Zabbix
 ### Устанавливаем репозиторий Zabbix
