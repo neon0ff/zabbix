@@ -47,6 +47,20 @@
 ### Если при переходе на наш домен ничего не происходит, перезапускаем nginx
 <code>sudo systemctl restart nginx</code>
 # Zabbix Agent
+## Agnent на Ubuntu 20.04
+### Начнием с обновления списков пакетов на удаленном хосте
+<code>sudo apt update</code>
+### Затем загрузиим файл репозитория Zabbix из центра загрузки Zabbix следующим образом
+<code>wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu20.04_all.deb</code>
+### Затем запустим его с помощью команды dpkg
+<code>sudo dpkg -i zabbix-release_6.4-1+ubuntu20.04_all.deb</code>
+### После этого обновим индекс пакета, чтобы обеспечить синхронизацию репозитория
+<code>sudo apt update</code>
+### Устанавливаем Zabbix Agnet
+<code>sudo apt install zabbix-agent</code>
+### Далее добовляем ip нашего Zabbix сервера как указано чуть ниже 
+
+## Agnent на Ubuntu 22.04
 ### Устанавливаем Zabbix Agent
 <code>sudo apt install zabbix-agent</code>
 ### Добовляем ip нашего Zabbix Server в белый список для их коннекта
