@@ -1,4 +1,5 @@
 # Zabbix Server
+
 ## Установка PostgreSQL
 ### Создадим конфигурацию репозитория файлов:
 <code>sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'</code>
@@ -46,8 +47,10 @@
 <code>sudo systemctl enable zabbix-server zabbix-agent nginx php8.1-fpm</code>
 ### Если при переходе на наш домен ничего не происходит, перезапускаем nginx
 <code>sudo systemctl restart nginx</code>
+
 # Zabbix Agent
-## Agnent на Ubuntu 20.04
+
+## Agent на Ubuntu 20.04
 ### Начнием с обновления списков пакетов на удаленном хосте
 <code>sudo apt update</code>
 ### Затем загрузиим файл репозитория Zabbix из центра загрузки Zabbix следующим образом
@@ -60,7 +63,7 @@
 <code>sudo apt install zabbix-agent</code>
 ### Далее добовляем ip нашего Zabbix сервера как указано чуть ниже 
 
-## Agnent на Ubuntu 22.04
+## Agent на Ubuntu 22.04
 ### Устанавливаем Zabbix Agent
 <code>sudo apt install zabbix-agent</code>
 ### Добовляем ip нашего Zabbix Server в белый список для их коннекта
