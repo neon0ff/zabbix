@@ -50,13 +50,13 @@
 
 # Zabbix Agent
 
-## Agent на Ubuntu 20.04
+## Agent на Ubuntu 22.04
 ### Начнием с обновления списков пакетов на удаленном хосте
 <code>sudo apt update</code>
 ### Затем загрузиим файл репозитория Zabbix из центра загрузки Zabbix следующим образом
-<code>wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu20.04_all.deb</code>
+<code>wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb</code>
 ### Затем запустим его с помощью команды dpkg
-<code>sudo dpkg -i zabbix-release_6.4-1+ubuntu20.04_all.deb</code>
+<code>sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb</code>
 ### После этого обновим индекс пакета, чтобы обеспечить синхронизацию репозитория
 <code>sudo apt update</code>
 ### Устанавливаем Zabbix Agnet
