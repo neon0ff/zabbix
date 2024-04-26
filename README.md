@@ -19,7 +19,7 @@
 ### Должны увидеть открытый порт 5432 для PostgreSQL
 ## Установка Zabbix
 ### Устанавливаем репозиторий Zabbix
-<code>sudo wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb</code>
+<code>sudo wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest%2Bubuntu22.04_all.deb</code>
 
 <code>sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb</code>
 
