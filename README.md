@@ -90,7 +90,7 @@ sudo systemctl restart nginx
 ```
 
 # Zabbix Agent
-## Agent на Ubuntu 22.04
+## Agent на Ubuntu 24.04
 ### Скачиваем Zabbix Agent репозиторий
 ```bash 
 sudo wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu24.04_all.deb
