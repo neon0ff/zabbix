@@ -50,8 +50,17 @@
 
 # Zabbix Agent
 ## Agent на Ubuntu 22.04
-### Устанавливаем Zabbix Agent
-<code>sudo apt install zabbix-agent</code>
+### Скачиваем Zabbix Agent репозиторий
+<code>sudo wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu24.04_all.deb</code>
+<cpde>sudo dpkg -i zabbix-release_6.4-1+ubuntu24.04_all.deb</code>
+### Обновляем пакеты
+```bash
+sudo apt update
+```
+### Усианавливаем Zabbix Agent
+```
+sudo apt install zabbix-agent
+```
 ### Добовляем ip нашего Zabbix Server в белый список для их коннекта
 <code>sudo nano /etc/zabbix/zabbix_agentd.conf</code>
 
